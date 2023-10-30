@@ -14,7 +14,7 @@ def detect_objects(frame):
     inputs = processor(images=image, return_tensors="pt")
     outputs = model(**inputs)
 
-    # convert outputs (bounding boxes and class logits) to COCO API
+    # convert outputs (bounding boxes and class logits) to COCO API-format
     # let's only keep detections with score > 0.9
     target_sizes = torch.tensor([image.size[::-1]])
     results = processor.post_process_object_detection(
