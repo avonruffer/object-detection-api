@@ -29,6 +29,6 @@ We can now run the client.
 python3 ob_det_client.py
 ```
 
-The terminal will print out detected objects, their scores and their locations.
+The terminal will print out detected objects, their scores and their locations. For the segmentation server, the file will print out the 2D array with the corresponding class IDs.
 
 **NOTE:** The conda environments used for development are included in environment.yml files in the repository. Use the "client" environment for running the client and the "server" environment for running the server.
