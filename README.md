@@ -1,6 +1,6 @@
 ## What is the functionality of this repository?
 
-This repository includes two different fast API servers that can be used for externally
+This repository includes two different fastAPI servers that can be used for externally
 processing images for object detection or image segmentation using pre-trained DETR Resnet-50 models.
 
 ## Object Detection
